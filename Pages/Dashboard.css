@@ -210,3 +210,57 @@ p{
     transform: translateY(-15%);
     display: inline-block;
 }
+.overlay {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:#000;
+    opacity:0.75;
+    display:block;
+    z-index:1001;
+}          
+.overlay-message1{
+    position: absolute;
+    padding-left: 500px; 
+    opacity:0.;
+    z-index:1005;
+
+}
+.overlay-message2{
+    position: absolute;
+    padding-left: 500px; 
+    opacity:0.;
+    z-index:1005;
+
+}
+.overlay-message3{
+    position: absolute;
+    padding-left: 500px; 
+    opacity:0.;
+    z-index:1005;
+
+}
+.notifButton1{
+   display: inline-block;
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-weight: 1;
+    color: #cccccc; 
+    margin-left: 10px;
+}
+.notifButton2{
+   display: inline-block;
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-weight: 1;
+    color: #cccccc;
+}
+.notifButton3{
+   display: inline-block;
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-weight: 1;
+    color: #cccccc;
+}

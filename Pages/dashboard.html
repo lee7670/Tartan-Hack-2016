@@ -29,6 +29,25 @@
         </div>    
         <div class="content">
             <p class="largeTXT txthead"><span class="oTXT">YOUR POOLS</span> ideas you contributed to be voted on</p>
+            
+            <div class="overlay-message1">
+                        <img src="../Images/winningnotification2.png" alt="Check" style="width:500px;height:autopx;">
+            </div>
+            <div class="overlay-message2">
+                        <img src="../Images/votescompleted%20notificatiom.png" alt="Check" style="width:500px;height:autopx;">
+            </div>
+            <div class="overlay-message3">
+                        <img src="../Images/votereadyNotification.png" alt="Check" style="width:500px;height:autopx;">
+            </div>
+             
+            
+            <script type="application/javascript">
+                $(".overlay-message1").hide();
+                $(".overlay-message2").hide();
+                $(".overlay-message3").hide();
+            </script>
+            
+            
             <div class="tridiv">
                 <div class="floatleftimg">
                     <img class="cirimg" src="../Images/75%25complete.png"/>
@@ -76,6 +95,26 @@
                     owl.trigger('next.owl.carousel', [300]);
                 })
             </script>
+            <!--<div class="overlay"></div>-->
+            
         </div>
+        <div>
+            <p class="notifButton1">Earned Award</p>
+            <p class="notifButton2">Voting Open</p>
+            <p class="notifButton3">Voting Closed</p>
+        </div>
+        <script type="application/javascript">
+                $('#notifButton1').click(function() {
+                    $(".overlay-message1").show();
+                })
+                $('#notifButton2').click(function() {
+                    $(".overlay-message2").show();
+                })
+                $('#notifButton3').click(function() {
+                    $(".overlay-message3").show();
+                })
+        </script>
+        
+        
     </body>
 </html>
