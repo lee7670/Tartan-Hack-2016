@@ -31,18 +31,29 @@
             <p class="largeTXT txthead"><span class="oTXT">YOUR POOLS</span> ideas you contributed to be voted on</p>
             <div class="overlay"></div>
             <div class="overlay-message1">
-                        <img src="../Images/winningnotification2.png" alt="Check" style="width:500px;height:autopx;">
+                    <img src="../Images/winningnotification2.png" alt="Check" style="width:500px;height:autopx;">
             </div>
             <div class="overlay-message2">
-                        <img src="../Images/votescompleted%20notificatiom.png" alt="Check" style="width:500px;height:autopx;">
+                    <img src="../Images/votescompleted%20notificatiom.png" alt="Check" style="width:500px;height:autopx;">
             </div>
             <div class="overlay-message3">
-                        <img src="../Images/votereadyNotification.png" alt="Check" style="width:500px;height:autopx;">
+                    <img src="../Images/votereadyNotification.png" alt="Check" style="width:500px;height:autopx;">
             </div>
-             
+            <div class="notBut1">
+                <a href="Pages/dashboard.html"><img class="loginbutton" src="../Images/backToDashboard.png" style="width:200px;height:autopx;"/></a> 
+            </div>
+            <div class="notBut2">
+                <a href="Pages/dashboard.html"><img class="loginbutton" src="../Images/checkItOutButton.png" style="width:200px;height:autopx;"/></a>
+            </div>
+            <div class="notBut3">
+                <a href="Pages/dashboard.html"><img class="loginbutton" src="../Images/letsGoButton.png" style="width:200px;height:autopx;"/></a>
+            </div> 
             
             <script type="application/javascript">
                 $(".overlay").hide();
+                $(".notBut1").hide();
+                $(".notBut2").hide();
+                $(".notBut3").hide();
                 $(".overlay-message1").hide();
                 $(".overlay-message2").hide();
                 $(".overlay-message3").hide();
@@ -104,15 +115,13 @@
             <p class="notifButton2">Voting Open</p>
             <p class="notifButton3">Voting Closed</p>
         </div>
-        <div>
-            <a href="Pages/dashboard.html"><img class="loginbutton" src="../Images/submit%20to%20pool.png"/></a> 
-        </div>
-        <div>
-            <a href="Pages/dashboard.html"><img class="loginbutton" src="../Images/checkItOutButton.png"/></a>
-        </div>
+        
         <script type="application/javascript">
                 $('.notifButton1').click(function() {
                     $(".overlay").show();
+                    $(".notBut1").show();
+                    $(".notBut2").hide();
+                    $(".notBut3").hide();
                     $(".overlay-message1").show();
                     $(".overlay-message2").hide();
                     $(".overlay-message3").hide();
@@ -120,12 +129,18 @@
                 })
                 $('.notifButton2').click(function() {
                     $(".overlay").show();
+                    $(".notBut2").show();
+                    $(".notBut1").hide();
+                    $(".notBut3").hide();
                     $(".overlay-message2").show();
                     $(".overlay-message1").hide();
                     $(".overlay-message3").hide();
                 })
                 $('.notifButton3').click(function() {
                     $(".overlay").show();
+                    $(".notBut3").show();
+                    $(".notBut1").hide();
+                    $(".notBut2").hide();
                     $(".overlay-message3").show();
                     $(".overlay-message2").hide();
                     $(".overlay-message1").hide();
