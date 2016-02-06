@@ -1,0 +1,47 @@
+p.one {
+    padding-top: 100px;
+    padding-left: 150px;
+    float: right
+}
+p.two {
+    padding-left: 00px;
+    float: left
+}
+p.three {
+    padding-left: 00px;
+    float: left              
+}
+p.four {
+    padding-left: 00px;
+    float: left
+}
+body {
+    background-color: #e2e2e2;
+}
+.circles{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.circles0{
+    display:inline-block;
+}
+.circles1{
+    display: inline-block;
+}
+.circles2{
+    display: inline-block;
+}
+.circles3{
+    display: inline-block;
+}
+.text{
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 75%;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
