@@ -42,7 +42,7 @@ body{
     align-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(Images/LandingPagephoto-01.png);
+    background-image: url(../Images/LandingPagephoto-01.png);
     background-color: black;
     background-size: 100%, auto;
     font-family: "Nunito", sans-serif;
