@@ -78,6 +78,14 @@ body{
     margin-left: 50px;
     z-index: 1;
 }
+.largeTXTfmt{
+    color: #058bac;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 150%;;
+    z-index: 1;
+    float: left;
+}
 .oTXT{
     color: #f9a148;
 }
@@ -102,6 +110,7 @@ body{
     z-index: 1;
 }
 .superdiv{
+    height: auto;
     text-align: center;
     z-index: 1;
 }
@@ -169,4 +178,35 @@ p{
     transform:translateY(-50%) scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH";
+}
+.inbx{
+    width: 100%;
+    height: 8em;
+    border: solid 1px white;
+    background-color: #e2e2e2;
+    color: rgb(150, 150, 150);
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+.chbx{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-color: orange;
+}
+.chbxdiv{
+    text-align: left;
+    height: auto;
+    width: 1000px;
+}
+.vertal{
+    display: inline-block;
+    width: 900px;
+}
+.inline{
+    width: 75px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-15%);
+    display: inline-block;
 }
