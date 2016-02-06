@@ -1,0 +1,53 @@
+.TITLE{
+    height: 200px;
+    width: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.headerdiv{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.circleele{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin: 50px;
+    border: solid 2px white;
+}
+.txtin{
+    margin: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: solid 2px #c2e8f5;
+    color: #c2e8f5;
+    width: 250px;
+}
+.txtin:placeholder{
+    color: #c2e8f5;
+}
+.txtin:focus{
+    border: none;
+    border-bottom: solid 2px #c2e8f5;
+}
+#slogan{
+    padding-top: 25px;
+    color: #f9a148;
+}
+#cpoolstxt{
+    color: #f9a148;
+}
+body{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(Images/LandingPagephoto-01.png);
+    background-color: black;
+    background-size: 100%, auto;
+    font-family: "Nunito", sans-serif;
+}
+.loginbutton{
+    height: 100px;
+    width: auto;
+}
