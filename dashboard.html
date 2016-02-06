@@ -47,7 +47,7 @@
             </div>
             <p class="largeTXT txt2"><span class="oTXT">CURRENT POOLS</span> ideas you contributed to be voted on what are others doing?</p>
             <div class="test">
-                <div id="leftarrow" class="arrow"> <img class="arrow" src="Images/leftArrow.png"/></div>
+                <div id="leftarrow" class="arrow"> <img id="left" class="arrow" onclick="backwards" src="Images/leftArrow.png"/></div>
                 <div class="wrap">
                     <div class="owl-carousel loop">
                         <div class="item"><img class="cirimg" src="Images/addidea.png"/></div>
@@ -58,15 +58,22 @@
                         <div class="item"><img class="cirimg" src="Images/addidea.png"/></div>
                     </div>
                 </div>
-                <div id="rightarrow" class="arrow"><img class="arrow" src="Images/leftArrow.png"/></div>
+                <div id="rightarrow" class="arrow"><img id="right" class="arrow" onclick="forward" src="Images/leftArrow.png"/></div>
             </div>
             <script type="application/javascript">
-                $('.loop').owlCarousel({
+                var owl = $('.owl-carousel');
+                owl.owlCarousel({
                     autoWidth:true,
                     margin:10,
                     dots:false,
                     items:4
                     });
+                $('#leftarrow').click(function() {
+                    owl.trigger('prev.owl.carousel', [300]);
+                })
+                $('#rightarrow').click(function() {
+                    owl.trigger('next.owl.carousel', [300]);
+                })
             </script>
         </div>
     </body>
