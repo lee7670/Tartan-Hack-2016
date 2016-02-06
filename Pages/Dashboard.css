@@ -114,6 +114,13 @@ body{
     height: auto;
     text-align: center;
     z-index: 1;
+.superdiv1{
+    height: auto;
+    text-align: center;
+    z-index: 1;    
+    font-weight: 300;
+}
+    
 }
 .subdiv{
     display: inline-block;
@@ -179,6 +186,15 @@ p{
     transform:translateY(-50%) scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH";
+}
+.titleSubmission{
+    width: 100%;
+    height: 3em;
+    border: solid 3px white;
+    background-color: #e2e2e2;
+    color: rgb(150, 150, 150);
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
 }
 .inbx{
     width: 100%;
