@@ -132,6 +132,7 @@ body{
 }
 .cirimg{
     height: 200px;
+    border-radius: 100%;
     width: auto;
     z-index: 1;
 }
