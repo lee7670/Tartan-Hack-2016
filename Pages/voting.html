@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:500,600,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="Dashboard.css"/>
+        <link rel="stylesheet" href="voting.css"/>
+    </head>
+    
+    <body>
+        <div class="navbar">
+            <div class = "navbarconleft">
+                <img class="navlogo" src="../Images/sidelogo.png"/>
+            </div>
+            <div class="navbarconleft">
+                <img id="navcentertext" src="../Images/Voting.png"/>
+            </div>
+            <div id="ntxtdiv" class="navbarconright">
+                <p id='name' class="Navtxt">Deborah L</p>
+                <p class="Navtxt">Account</p>
+                <p class="Navtxt">Past Activity</p>
+            </div>
+            <div class="navbarconright ">
+                <img class="avatar" src="../Images/avatar.png"/>
+            </div>
+        </div> 
+        <div class="content">
+            <center>
+            <div id="topdiv" class="tridiv2">
+                <div class="floatleftimgbox">
+                    <img id="topleft" class="boximg" src="../Images/Submission1.png"/>
+                </div>
+                <div class="floatleftimgbox">
+                    <img class="boximg" src="../Images/Submission2.png"/>
+                </div>
+                <div class="floatleftimgbox">
+                    <img id="topright" class="boximg" src="../Images/Submission3.png"/>
+                </div>
+            </div>
+            <div class="tridiv2">
+                <div class="floatleftimgbox">
+                    <img id="bottomleft" class="boximg" src="../Images/Submission4.png"/>
+                </div>
+                <div class="floatleftimgbox txtboxsq">
+                    <p id="smtxt">click on images for more information</p><br/>
+                    <p id="lgtxt">WEB DEV POOL</p>
+                    <a class="lin" href="votingCompletePage.html"><img id="vbutton" src="../Images/submit%20votes.png"/></a>
+                </div>
+                <div class="floatleftimgbox">
+                    <img class="boximg" src="../Images/Submission5.png"/>
+                </div>
+            </div>
+            </center>
+        </div>
+        <div class="overlay"></div>
+        <div class="overlay-message1">
+            <img class="photo1" src="../Images/toprightDetails.png"/>
+        </div>
+        <div class="overlay-message2">
+            <img class="photo1" src="../Images/topleftDetails.png"/>
+        </div>
+        <div class="overlay-message3">
+            <img class="photo1" src="../Images/bottomleftDetails.png"/>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script type="application/javascript">
+            $(function() {
+                var o1=true;
+                var o2=true;
+                var o3=true;
+                $(".overlay, .overlay-message1, .lin").hide();
+                $(".overlay-message2, .overlay-message3").hide();
+                $(".overlay-message1").click(function() {
+                    $(".overlay, .overlay-message1").hide();
+                    $("#topright").css("opacity", "0.5");
+                    o1=false;
+                    if(!(o1||(o2||o3))){
+                            $(".lin").show();
+                    }
+                });
+                $("#topright").click(function() {
+                    if(o1){
+                        $(".overlay, .overlay-message1").show();
+                    }
+                    });
+                
+                
+                $(".overlay-message2").click(function() {
+                    $(".overlay, .overlay-message2").hide();
+                    $("#topleft").css("opacity", "0.5");
+                    o2=false;
+                    if(!(o1||(o2||o3))){
+                            $(".lin").show();
+                    }
+                });
+                $("#topleft").click(function() {
+                    if(o2){
+                        $(".overlay, .overlay-message2").show();
+                    }
+                    });
+                $(".overlay-message3").click(function() {
+                    $(".overlay, .overlay-message3").hide();
+                    $("#bottomleft").css("opacity", "0.5");
+                    o3=false;
+                    if(!(o1||(o2||o3))){
+                            $(".lin").show();
+                    }
+                });
+                $("#bottomleft").click(function() {
+                    if(o3){
+                        $(".overlay, .overlay-message3").show();
+                    }
+                    });
+                
+            });
+    </script>
+    </body>
+    
+</html>

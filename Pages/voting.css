@@ -1,0 +1,108 @@
+#topdiv{
+    margin-top: 100px;
+}
+.floatleftimgbox{
+    display: inline-block;
+    color: #058bac;
+    font-family: "Raleway", sans-serif;
+    text-align: left;
+    font-weight: 600;
+    font-size: 125%;
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    background-image: url(../Images/votingcheck.png);
+    background-size: 300px 300px;
+}
+.tridiv2{
+    height: 300px;
+    width: 940px;
+    text-align: center;
+    z-index: 1;
+    margin-top: 20px;
+}
+.boximg{
+    
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    margin-right: 20px;
+}
+.overlay {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:#000;
+    opacity:0.8;
+    display:block;
+    z-index:1001;
+}
+.overlay-message1{
+    position: fixed;
+    top:30px;
+    left:30px;
+    width:800px;
+    height:auto;
+    background-color:rgba(0,0,0,0);
+    border:none;
+    opacity:1;
+    z-index:1002;
+    box-sizing:border-box;
+    padding:100px 50px;
+    background
+}
+.overlay-message2{
+    position: fixed;
+    top:30px;
+    left:30px;
+    width:800px;
+    height:auto;
+    background-color:rgba(0,0,0,0);
+    border:none;
+    opacity:1;
+    z-index:1002;
+    box-sizing:border-box;
+    padding:100px 50px;
+    background
+}
+.overlay-message3{
+    position: fixed;
+    top:30px;
+    left:30px;
+    width:800px;
+    height:auto;
+    background-color:rgba(0,0,0,0);
+    border:none;
+    opacity:1;
+    z-index:1002;
+    box-sizing:border-box;
+    padding:100px 50px;
+    background
+}
+.txtboxsq{
+    text-align: center;
+    background: none;
+}
+#smtxt{
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 75%;
+}
+#lgtxt{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 150%;
+    margin-top: 0;
+}
+#vbutton{
+    height: 75px;
+    margin-top: 25px;
+    width: auto;
+}
+.photo1{
+    width: 800px;
+    height: auto;
+    margin: 0;
+}
