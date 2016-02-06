@@ -5,7 +5,7 @@
     padding-top: 50px;
 }
 .TITLE:hover{
-    content: url("../Images/LogoHOVER.png");
+    content: url("../Images/Logo.png");
 }
 .currentPools{
     height: 35px;
@@ -82,6 +82,12 @@ body{
 .longScreenImage{
     width: 100%;
 }
-#hov:hover{
+#hov1:hover{
+    content: url("../Images/hoverpool.png");
+}
+#hov2:hover{
+    content: url("../Images/squarecurrentpool2HOVER.png");
+}
+#hov3:hover{
     content: url("../Images/currentpool3HOVER.png");
 }
