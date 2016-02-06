@@ -114,6 +114,7 @@ body{
     height: auto;
     text-align: center;
     z-index: 1;
+}
 .superdiv1{
     height: auto;
     text-align: center;
@@ -133,6 +134,11 @@ body{
 .cirimg{
     height: 200px;
     border-radius: 100%;
+    width: auto;
+    z-index: 1;
+}
+.sqrimg{
+    height: 200px;
     width: auto;
     z-index: 1;
 }
@@ -299,4 +305,7 @@ p{
     padding-left: 620px;
     padding-top: 215px;
     z-index: 1006;
+}
+#te:hover{
+    content: url("../Images/WebDevHOVER.png");
 }
