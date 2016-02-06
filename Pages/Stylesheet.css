@@ -4,6 +4,9 @@
     text-align: center;
     padding-top: 50px;
 }
+.TITLE:hover{
+    content: url("../Images/LogoHOVER.png");
+}
 .currentPools{
     height: 35px;
     width: auto;
@@ -78,4 +81,7 @@ body{
 }
 .longScreenImage{
     width: 100%;
+}
+#hov:hover{
+    content: url("../Images/currentpool3HOVER.png");
 }
