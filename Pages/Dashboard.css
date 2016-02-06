@@ -284,19 +284,19 @@ p{
 }
 .notBut1{
     position: absolute;
-    padding-left: 100px;
-    padding-top: 100px;
+    padding-left: 610px;
+    padding-top: 470px;
     z-index: 1006;
 }
 .notBut2{
     position: absolute;
-    padding-left: 100px;
-    padding-top: 100px;
+    padding-left: 620px;
+    padding-top: 210px;
     z-index: 1006;
 }
 .notBut3{
     position: absolute;
-    padding-left: 100px;
-    padding-top: 100px;
+    padding-left: 620px;
+    padding-top: 215px;
     z-index: 1006;
 }
