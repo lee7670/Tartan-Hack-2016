@@ -3,8 +3,13 @@
     <head>
         <link href='https://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="Dashboard.css"/>
+        <link rel="stylesheet" href="owl/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css"/>
+        <link rel="stylesheet" href="owl/owl.carousel.2.0.0-beta.2.4/owl.autoheight.css"/>
+        <link rel="stylesheet" href="owl/owl.carousel.2.0.0-beta.2.4/owl.theme.default.css"/>
     </head>
     <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="owl/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
         <div class="navbar">
             <div class = "navbarconleft">
                 <img class="navlogo" src="Images/sidelogo.png"/>
@@ -22,7 +27,47 @@
             </div>
         </div>    
         <div class="content">
-            <p class="largeTXT"><span class="oTXT">YOUR POOLS</span> ideas you contributed to be voted on</p>
+            <p class="largeTXT txthead"><span class="oTXT">YOUR POOLS</span> ideas you contributed to be voted on</p>
+            <div class="tridiv">
+                <div class="floatleftimg">
+                    <img class="cirimg" src="Images/75%25complete.png"/>
+                    <p>web dev pool</p>
+                    <p class="time">made 6 days ago</p>
+                </div>
+                <div class="floatleftimg">
+                    <img class="cirimg" src="Images/15%25complete.png"/>
+                    <p>3d modeling pool</p>
+                    <p class="time">made 15 hours ago</p>
+                </div>
+                <div class="floatleftimg">
+                    <img class="cirimg" src="Images/addidea.png"/>
+                    <p>create your own</p>
+                    <br/>
+                </div>
+            </div>
+            <p class="largeTXT txt2"><span class="oTXT">CURRENT POOLS</span> ideas you contributed to be voted on what are others doing?</p>
+            <div class="test">
+                <div id="leftarrow" class="arrow"> <img class="arrow" src="Images/leftArrow.png"/></div>
+                <div class="wrap">
+                    <div class="owl-carousel loop">
+                        <div class="item"><img class="cirimg" src="Images/addidea.png"/></div>
+                        <div class="item"><img class="cirimg" src="Images/addidea.png"/></div>
+                        <div class="item"><img class="cirimg" src="Images/addidea.png"/></div>
+                        <div class="item"><img class="cirimg" src="Images/addidea.png"/></div>
+                        <div class="item"><img class="cirimg" src="Images/addidea.png"/></div>
+                        <div class="item"><img class="cirimg" src="Images/addidea.png"/></div>
+                    </div>
+                </div>
+                <div id="rightarrow" class="arrow"><img class="arrow" src="Images/leftArrow.png"/></div>
+            </div>
+            <script type="application/javascript">
+                $('.loop').owlCarousel({
+                    autoWidth:true,
+                    margin:10,
+                    dots:false,
+                    items:4
+                    });
+            </script>
         </div>
     </body>
 </html>

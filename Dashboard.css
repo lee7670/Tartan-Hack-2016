@@ -1,8 +1,10 @@
 .navbar{
     height: 100px;
-    width: inherit;
+    width: 100%;
     background-color: #058bac;
     text-align: center;
+    top: 0;
+    position: fixed;
 }
 html, body{
     padding: 0;
@@ -16,7 +18,7 @@ html, body{
 }
 .navbarconleft{
     height: inherit;
-    width: inherit;
+    width: auto;
     float: left;
 }
 #navcentertext{
@@ -28,10 +30,11 @@ html, body{
 }
 body{
     background-color: #e2e2e2;
+    width: 100%
 }
 .navbarconright{
     height: inherit;
-    width: inherit;
+    width:auto;
     float: right;
 }
 .avatar{
@@ -62,8 +65,79 @@ body{
     color: #058bac;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
-    font-size: 125%
+    font-size: 150%;
+    margin-left: 50px;
 }
 .oTXT{
     color: #f9a148;
+}
+.txthead{
+    margin-top: 100px;
+}
+.floatleftimg{
+    display: inline-block;
+    color: #f9a148;
+    font-family: "Raleway", sans-serif;
+    text-align: left;
+    font-weight: 600;
+    margin: 50px;
+    font-size: 125%;
+}
+.tridiv{
+    width: auto;
+    height: 400px;
+    text-align: center;
+}
+.cirimg{
+    height: 200px;
+    width: auto;
+}
+.time{
+    margin-top: 5px;
+    font-size: 50%;
+}
+p{
+    margin-bottom: 0;
+}
+.carit{
+    width:200px;
+}
+#car{
+    display: inline-block;
+}
+.arrow{
+    display: inline-block;
+    height: 100px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.test{
+    text-align: center;
+}
+.wrap{
+    width: 830px;
+    text-align: center;
+    display: inline-block;
+}
+.loop{
+    display: inline-block;
+}
+.item{
+    text-align: center;
+    width:200px;
+}
+.txt2{
+    margin-bottom: 50px;
+}
+.owl-wrapper {
+    margin: 0 auto;
+}
+#rightarrow{
+    -moz-transform: translateY(-50%) scaleX(-1);
+    -o-transform: translateY(-50%) scaleX(-1);
+    -webkit-transform: translateY(-50%) scaleX(-1);
+    transform:translateY(-50%) scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
 }
