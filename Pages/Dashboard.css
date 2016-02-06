@@ -114,6 +114,13 @@ body{
     height: auto;
     text-align: center;
     z-index: 1;
+.superdiv1{
+    height: auto;
+    text-align: center;
+    z-index: 1;    
+    font-weight: 300;
+}
+    
 }
 .subdiv{
     display: inline-block;
@@ -125,6 +132,7 @@ body{
 }
 .cirimg{
     height: 200px;
+    border-radius: 100%;
     width: auto;
     z-index: 1;
 }
@@ -180,10 +188,19 @@ p{
     filter: FlipH;
     -ms-filter: "FlipH";
 }
+.titleSubmission{
+    width: 100%;
+    height: 3em;
+    border: solid 3px white;
+    background-color: #e2e2e2;
+    color: rgb(150, 150, 150);
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
 .inbx{
     width: 100%;
     height: 8em;
-    border: solid 1px white;
+    border: solid 3px white;
     background-color: #e2e2e2;
     color: rgb(150, 150, 150);
     font-family: "Raleway", sans-serif;
@@ -264,4 +281,22 @@ p{
     font-family: "Raleway", sans-serif;
     font-weight: 1;
     color: #cccccc;
+}
+.notBut1{
+    position: absolute;
+    padding-left: 610px;
+    padding-top: 470px;
+    z-index: 1006;
+}
+.notBut2{
+    position: absolute;
+    padding-left: 620px;
+    padding-top: 210px;
+    z-index: 1006;
+}
+.notBut3{
+    position: absolute;
+    padding-left: 620px;
+    padding-top: 215px;
+    z-index: 1006;
 }
