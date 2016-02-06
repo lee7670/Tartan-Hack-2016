@@ -4,16 +4,26 @@
     text-align: center;
     padding-top: 50px;
 }
+.currentPools{
+    height: 35px;
+    width: auto;
+    text-align: center;
+}
+h1 {
+    font-size:40px;
+    font-family:"Raleway", sans-serif;
+    font-weight: 500;
+}
 .headerdiv{
     align-content: center;
     align-items: center;
     text-align: center;
 }
 .circleele{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
-    margin: 50px;
+    margin: 20px;
     border: solid 2px white;
 }
 .txtin{
@@ -25,7 +35,13 @@
     width: 250px;
 }
 .txtin:placeholder{
-    color: #c2e8f5;
+    
+}
+input.txtin{
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: C2E8F5;
 }
 .txtin:focus{
     border: none;
@@ -33,7 +49,13 @@
 }
 #slogan{
     padding-top: 25px;
+    font-size:13;
     color: #f9a148;
+}
+
+#makeAccount{
+    font-size:8;
+    color: #c67436;
 }
 #cpoolstxt{
     color: #f9a148;
@@ -43,11 +65,14 @@ body{
     align-items: center;
     text-align: center;
     background-image: url(../Images/LandingPagephoto-01.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: black;
     background-size: 100%, auto;
-    font-family: "Nunito", sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
 }
 .loginbutton{
-    height: 100px;
+    height: 35px;
     width: auto;
 }

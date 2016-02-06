@@ -29,7 +29,7 @@
         </div>    
         <div class="content">
             <p class="largeTXT txthead"><span class="oTXT">YOUR POOLS</span> ideas you contributed to be voted on</p>
-            
+            <div class="overlay"></div>
             <div class="overlay-message1">
                         <img src="../Images/winningnotification2.png" alt="Check" style="width:500px;height:autopx;">
             </div>
@@ -42,6 +42,7 @@
              
             
             <script type="application/javascript">
+                $(".overlay").hide();
                 $(".overlay-message1").hide();
                 $(".overlay-message2").hide();
                 $(".overlay-message3").hide();
@@ -103,15 +104,31 @@
             <p class="notifButton2">Voting Open</p>
             <p class="notifButton3">Voting Closed</p>
         </div>
+        <div>
+            <a href="Pages/dashboard.html"><img class="loginbutton" src="../Images/submit%20to%20pool.png"/></a> 
+        </div>
+        <div>
+            <a href="Pages/dashboard.html"><img class="loginbutton" src="../Images/checkItOutButton.png"/></a>
+        </div>
         <script type="application/javascript">
-                $('#notifButton1').click(function() {
+                $('.notifButton1').click(function() {
+                    $(".overlay").show();
                     $(".overlay-message1").show();
+                    $(".overlay-message2").hide();
+                    $(".overlay-message3").hide();
+                    
                 })
-                $('#notifButton2').click(function() {
+                $('.notifButton2').click(function() {
+                    $(".overlay").show();
                     $(".overlay-message2").show();
+                    $(".overlay-message1").hide();
+                    $(".overlay-message3").hide();
                 })
-                $('#notifButton3').click(function() {
+                $('.notifButton3').click(function() {
+                    $(".overlay").show();
                     $(".overlay-message3").show();
+                    $(".overlay-message2").hide();
+                    $(".overlay-message1").hide();
                 })
         </script>
         
